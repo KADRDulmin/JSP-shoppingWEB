@@ -6,17 +6,21 @@ public class MailMessage {
 	public static void registrationSuccess(String emailId, String name) {
 		String recipient = emailId;
 		String subject = "Registration Successfull";
-		String htmlTextMessage = "" + "<html>" + "<body>"
-				+ "<h2 style='color:green;'>Welcome to Ellison Electronics</h2>" + "" + "Hi " + name + ","
-				+ "<br><br>Thanks for singing up with Ellison Electronics.<br>"
-				+ "We are glad that you choose us. We invite you to check out our latest collection of new electonics appliances."
-				+ "<br>We are providing upto 60% OFF on most of the electronic gadgets. So please visit our site and explore the collections."
-				+ "<br><br>Our Online electronics is growing in a larger amount these days and we are in high demand so we thanks all of you for "
-				+ "making us up to that level. We Deliver Product to your house with no extra delivery charges and we also have collection of most of the"
-				+ "branded items.<br><br>As a Welcome gift for our New Customers we are providing additional 10% OFF Upto 500 Rs for the first product purchase. "
-				+ "<br>To avail this offer you only have "
-				+ "to enter the promo code given below.<br><br><br> PROMO CODE: " + "ELLISON500<br><br><br>"
-				+ "Have a good day!<br>" + "" + "</body>" + "</html>";
+		String htmlTextMessage = "<html><body>"
+			    + "<h2 style='color:color:rgb(95, 218, 95);'>Warm Welcome to Green Supermarket</h2>"
+			    + "Hi " + name + ",<br><br>"
+			    + "Thank you for choosing Green Supermarket. We sincerely appreciate you joining our community. "
+			    + "Explore our latest assortment of high-quality goods, products, and commodities on our user-friendly platform.<br>"
+			    + "Our online store is experiencing remarkable growth, and we owe it all to you. Your support has propelled us to new heights. "
+			    + "We are thrilled to inform you that we offer hassle-free home delivery with no additional charges. "
+			    + "Discover a vast collection of branded items, and experience the convenience of having them delivered to your doorstep.<br><br>"
+			    + "Take advantage of our exclusive promo code provided below when making your purchase. It's our way of expressing gratitude for your loyalty:<br><br>"
+			    + "<strong>PROMO CODE: GS2023</strong><br><br>"
+			    + "We are committed to providing you with an exceptional shopping experience. Feel free to contact us if you have any questions or special requests.<br><br>"
+			    + "Thank you once again for being a part of the Green Supermarket family. We look forward to serving you for years to come.<br><br>"
+			    + "Wishing you a fantastic day!<br>"
+			    + "</body></html>";
+
 		try {
 			JavaMailUtil.sendMail(recipient, subject, htmlTextMessage);
 		} catch (MessagingException e) {
