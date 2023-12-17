@@ -14,8 +14,6 @@ public class MailMessage {
 			    + "Our online store is experiencing remarkable growth, and we owe it all to you. Your support has propelled us to new heights. "
 			    + "We are thrilled to inform you that we offer hassle-free home delivery with no additional charges. "
 			    + "Discover a vast collection of branded items, and experience the convenience of having them delivered to your doorstep.<br><br>"
-			    + "Take advantage of our exclusive promo code provided below when making your purchase. It's our way of expressing gratitude for your loyalty:<br><br>"
-			    + "<strong>PROMO CODE: GS2023</strong><br><br>"
 			    + "We are committed to providing you with an exceptional shopping experience. Feel free to contact us if you have any questions or special requests.<br><br>"
 			    + "Thank you once again for being a part of the Green Supermarket family. We look forward to serving you for years to come.<br><br>"
 			    + "Wishing you a fantastic day!<br>"
